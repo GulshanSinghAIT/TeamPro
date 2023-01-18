@@ -1,6 +1,5 @@
-.bosy {
-    padding: none;
-    border: 0;
+.body {
+    margin: 0;
 }
 
 .header {
@@ -72,6 +71,8 @@ h1 {
 
 .button-21:hover {
     background-position: -20px -20px;
+    background-image: linear-gradient(1deg, #74afa0, #38ab90 99%);
+    transition-duration: 0.86s;
 }
 
 .button-21:focus:not(:active) {
@@ -115,6 +116,9 @@ h1 {
 
 .button-22:hover {
     background-position: -20px -20px;
+    background-image: linear-gradient(1deg, #bda5e7, #6d1cf9 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    transition-duration: 0.86s;
 }
 
 .button-22:focus:not(:active) {
@@ -149,4 +153,43 @@ h1 {
     height: 650px;
     padding-top: 30px ;
     padding-bottom: 50px;
+}
+#footer{
+    display: flex;
+    background-color: rgb(185, 186, 189);
+    height:200px;
+    padding: 50px;
+    flex-direction: row;
+}
+.image{
+    width:25%;
+}
+.image > img{
+    height:80px;
+}
+.link{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.ilink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.ilink > p{
+    width: 15%;
+    font-family: 'ubuntu', sans-serif;
+}
+.icons{
+    margin-top: 35px;
+    margin-left: 70px;
+    width:25%;
+    bottom:25%;
+}
+.icons > img{
+    padding: 5px;
 }
