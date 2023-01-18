@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-image: url("/bg-header-desktop.png");
+    background-image: url("bg-header-desktop.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
