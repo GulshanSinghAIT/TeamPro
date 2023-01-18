@@ -3,7 +3,7 @@
 }
 
 .header {
-    background-image: url("/bg-header-desktop.png");
+    background-image: url("bg-header-desktop.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,6 +154,10 @@ h1 {
     padding-top: 30px ;
     padding-bottom: 50px;
 }
+.row{
+    --bs-gutter-x: 0 !important;
+}
+
 #footer{
     display: flex;
     background-color: rgb(185, 186, 189);
